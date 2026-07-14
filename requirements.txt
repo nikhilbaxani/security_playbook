@@ -1,0 +1,18 @@
+# Núcleo
+python-dotenv>=1.0
+
+# Proveedor por defecto (Gemini)
+google-genai>=1.0
+
+# Proveedores opcionales — descomenta solo el que uses
+# anthropic>=0.40
+# openai>=1.50
+# (Ollama no necesita SDK: usa su API HTTP local)
+
+# RAG (opcional: solo para --rag y retrieval/)
+sentence-transformers>=3.0
+chromadb>=0.5
+pdfplumber>=0.11
+
+# Tests
+pytest>=8.0
