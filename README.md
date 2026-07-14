@@ -30,9 +30,6 @@ pip install -r requirements.txt
 cp .env.example .env   # y pon tu GEMINI_API_KEY
 ```
 
-La API key **nunca va en el código**: vive en `.env` (ignorado por git). Consigue una
-gratis en https://aistudio.google.com/apikey.
-
 ## Uso
 
 ```bash
